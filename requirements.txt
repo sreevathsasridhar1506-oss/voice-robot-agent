@@ -1,0 +1,49 @@
+# ============================================================
+# Voice-Directed Collaborative Assembly Assistant — Requirements
+# ============================================================
+
+# --- Simulation ---
+mujoco>=3.2.0
+mink>=0.0.5
+pillow>=10.0.0
+opencv-python>=4.9.0
+
+# --- Core LLM / Agent Framework ---
+langchain>=0.3.0
+langchain-groq>=0.2.0
+langchain-ollama>=0.2.0  # LLM_PROVIDER=ollama — local, rate-limit-free eval path
+langchain-core>=0.3.0
+langgraph>=0.2.0
+
+# --- FastAPI & Server ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+websockets>=13.0
+
+# --- Speech-to-Text (Whisper via faster-whisper, GPU) ---
+faster-whisper>=1.0.3
+numpy>=1.26.0
+scipy>=1.13.0  # audio resampling (scripts/*.py) — was only transitively
+                # installed via mink before; made explicit since we import it directly
+# cuBLAS/cuDNN runtime DLLs ctranslate2 (faster-whisper's backend) needs on
+# Windows — see scripts/test_whisper_gpu.py's _add_nvidia_dll_dirs() for why
+# these alone aren't enough without also fixing up PATH at import time; the
+# same fix will need to move into the real transcribe_audio() wrapper in M9.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
+
+# --- Text-to-Speech (Piper — local, free, open source) ---
+piper-tts>=1.2.0
+
+# --- Voice Activity Detection (Silero VAD via ONNX) ---
+onnxruntime>=1.18.0
+
+# --- Audio I/O ---
+sounddevice>=0.4.7
+soundfile>=0.12.1
+
+# --- Environment & Config ---
+python-dotenv>=1.0.0
+
+# --- Utilities ---
+requests>=2.32.0  # used by scripts/test_*.py to hit /state and /metrics
