@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+*.log
+scripts/_tmp_*
+scripts/_snapshot*
+piper_voices/
+vad_model/
+session_metrics.jsonl
+
+# Local editor MCP config — contains a GitHub personal access token
+.vscode/mcp.json
+
+# assets_mujoco_menagerie/ is its own git clone of DeepMind's repo, fetched by
+# the README's setup step. The one hand-authored file that lives in it,
+# pick_place_scene.xml (Panda + blocks + weld constraints), is tracked at
+# scenes/pick_place_scene.xml and copied into place during setup.
+assets_mujoco_menagerie/

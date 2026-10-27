@@ -1,0 +1,286 @@
+{
+  "n": 30,
+  "n_attempted": 30,
+  "definition": "barge_in event received minus nominal arrival of the first interrupt sample above 0.005 of full scale (speech onset)",
+  "from_onset": {
+    "mean_ms": 123.0,
+    "median_ms": 121.3,
+    "stdev_ms": 17.5,
+    "q1_ms": 115.2,
+    "q3_ms": 127.7,
+    "min_ms": 90.3,
+    "max_ms": 177.0,
+    "raw_ms": [
+      90.3,
+      118.1,
+      124.2,
+      122.6,
+      122.2,
+      139.2,
+      120.4,
+      119.7,
+      140.9,
+      136.2,
+      177.0,
+      98.7,
+      126.4,
+      116.0,
+      119.2,
+      164.4,
+      127.8,
+      127.7,
+      105.5,
+      119.9,
+      113.9,
+      124.1,
+      108.1,
+      108.6,
+      138.8,
+      124.0,
+      99.2,
+      122.7,
+      120.1,
+      115.6
+    ]
+  },
+  "from_clip_start": {
+    "mean_ms": 170.0,
+    "median_ms": 153.9,
+    "stdev_ms": 60.2,
+    "q1_ms": 123.4,
+    "q3_ms": 185.2,
+    "min_ms": 109.8,
+    "max_ms": 314.1,
+    "raw_ms": [
+      152.8,
+      142.0,
+      155.2,
+      123.2,
+      154.8,
+      282.0,
+      122.5,
+      125.4,
+      152.2,
+      155.5,
+      183.5,
+      155.0,
+      310.9,
+      122.0,
+      123.8,
+      183.8,
+      314.1,
+      217.3,
+      188.9,
+      122.2,
+      152.9,
+      155.6,
+      109.8,
+      110.7,
+      187.3,
+      313.2,
+      122.9,
+      123.5,
+      184.5,
+      151.5
+    ]
+  },
+  "clip_leading_silence": {
+    "mean_ms": 46.9,
+    "median_ms": 27.4,
+    "stdev_ms": 57.4,
+    "q1_ms": 5.4,
+    "q3_ms": 63.0,
+    "min_ms": 0.6,
+    "max_ms": 189.2,
+    "raw_ms": [
+      62.5,
+      23.9,
+      30.9,
+      0.6,
+      32.6,
+      142.8,
+      2.1,
+      5.7,
+      11.3,
+      19.3,
+      6.5,
+      56.2,
+      184.5,
+      6.1,
+      4.6,
+      19.3,
+      186.3,
+      89.7,
+      83.4,
+      2.2,
+      38.9,
+      31.5,
+      1.7,
+      2.1,
+      48.5,
+      189.2,
+      23.8,
+      0.8,
+      64.4,
+      35.9
+    ]
+  },
+  "n_warmup": 2,
+  "n_warmup_attempted": 2,
+  "warmup_from_onset_ms": [
+    126.1,
+    146.0
+  ],
+  "trials": [
+    {
+      "from_onset_ms": 90.3,
+      "from_clip_start_ms": 152.8,
+      "clip_leading_silence_ms": 62.5
+    },
+    {
+      "from_onset_ms": 118.1,
+      "from_clip_start_ms": 142.0,
+      "clip_leading_silence_ms": 23.9
+    },
+    {
+      "from_onset_ms": 124.2,
+      "from_clip_start_ms": 155.2,
+      "clip_leading_silence_ms": 30.9
+    },
+    {
+      "from_onset_ms": 122.6,
+      "from_clip_start_ms": 123.2,
+      "clip_leading_silence_ms": 0.6
+    },
+    {
+      "from_onset_ms": 122.2,
+      "from_clip_start_ms": 154.8,
+      "clip_leading_silence_ms": 32.6
+    },
+    {
+      "from_onset_ms": 139.2,
+      "from_clip_start_ms": 282.0,
+      "clip_leading_silence_ms": 142.8
+    },
+    {
+      "from_onset_ms": 120.4,
+      "from_clip_start_ms": 122.5,
+      "clip_leading_silence_ms": 2.1
+    },
+    {
+      "from_onset_ms": 119.7,
+      "from_clip_start_ms": 125.4,
+      "clip_leading_silence_ms": 5.7
+    },
+    {
+      "from_onset_ms": 140.9,
+      "from_clip_start_ms": 152.2,
+      "clip_leading_silence_ms": 11.3
+    },
+    {
+      "from_onset_ms": 136.2,
+      "from_clip_start_ms": 155.5,
+      "clip_leading_silence_ms": 19.3
+    },
+    {
+      "from_onset_ms": 177.0,
+      "from_clip_start_ms": 183.5,
+      "clip_leading_silence_ms": 6.5
+    },
+    {
+      "from_onset_ms": 98.7,
+      "from_clip_start_ms": 155.0,
+      "clip_leading_silence_ms": 56.2
+    },
+    {
+      "from_onset_ms": 126.4,
+      "from_clip_start_ms": 310.9,
+      "clip_leading_silence_ms": 184.5
+    },
+    {
+      "from_onset_ms": 116.0,
+      "from_clip_start_ms": 122.0,
+      "clip_leading_silence_ms": 6.1
+    },
+    {
+      "from_onset_ms": 119.2,
+      "from_clip_start_ms": 123.8,
+      "clip_leading_silence_ms": 4.6
+    },
+    {
+      "from_onset_ms": 164.4,
+      "from_clip_start_ms": 183.8,
+      "clip_leading_silence_ms": 19.3
+    },
+    {
+      "from_onset_ms": 127.8,
+      "from_clip_start_ms": 314.1,
+      "clip_leading_silence_ms": 186.3
+    },
+    {
+      "from_onset_ms": 127.7,
+      "from_clip_start_ms": 217.3,
+      "clip_leading_silence_ms": 89.7
+    },
+    {
+      "from_onset_ms": 105.5,
+      "from_clip_start_ms": 188.9,
+      "clip_leading_silence_ms": 83.4
+    },
+    {
+      "from_onset_ms": 119.9,
+      "from_clip_start_ms": 122.2,
+      "clip_leading_silence_ms": 2.2
+    },
+    {
+      "from_onset_ms": 113.9,
+      "from_clip_start_ms": 152.9,
+      "clip_leading_silence_ms": 38.9
+    },
+    {
+      "from_onset_ms": 124.1,
+      "from_clip_start_ms": 155.6,
+      "clip_leading_silence_ms": 31.5
+    },
+    {
+      "from_onset_ms": 108.1,
+      "from_clip_start_ms": 109.8,
+      "clip_leading_silence_ms": 1.7
+    },
+    {
+      "from_onset_ms": 108.6,
+      "from_clip_start_ms": 110.7,
+      "clip_leading_silence_ms": 2.1
+    },
+    {
+      "from_onset_ms": 138.8,
+      "from_clip_start_ms": 187.3,
+      "clip_leading_silence_ms": 48.5
+    },
+    {
+      "from_onset_ms": 124.0,
+      "from_clip_start_ms": 313.2,
+      "clip_leading_silence_ms": 189.2
+    },
+    {
+      "from_onset_ms": 99.2,
+      "from_clip_start_ms": 122.9,
+      "clip_leading_silence_ms": 23.8
+    },
+    {
+      "from_onset_ms": 122.7,
+      "from_clip_start_ms": 123.5,
+      "clip_leading_silence_ms": 0.8
+    },
+    {
+      "from_onset_ms": 120.1,
+      "from_clip_start_ms": 184.5,
+      "clip_leading_silence_ms": 64.4
+    },
+    {
+      "from_onset_ms": 115.6,
+      "from_clip_start_ms": 151.5,
+      "clip_leading_silence_ms": 35.9
+    }
+  ]
+}

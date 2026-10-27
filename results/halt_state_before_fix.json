@@ -1,0 +1,800 @@
+{
+  "condition": "before_fix_no_retarget",
+  "seed": 0,
+  "description": "Halts of move_to() at random points; post-halt displacement over the next command's first 100 physics steps.",
+  "n_trials": 50,
+  "n_interrupted": 50,
+  "uninterrupted_move_ms": 673.4193000011146,
+  "controller_halt_latency_ms": {
+    "n": 50,
+    "mean": 7.265830003889278,
+    "median": 7.0218500040937215,
+    "stdev": 5.070655334442368,
+    "min": 0.08180004078894854,
+    "max": 17.91290001710877
+  },
+  "arm_joint_speed_at_halt_rad_s": {
+    "n": 50,
+    "mean": 0.9066722478725883,
+    "median": 0.7288986018911799,
+    "stdev": 0.8768679127554624,
+    "min": 0.10330192084573883,
+    "max": 4.999457071210598
+  },
+  "remaining_distance_to_target_mm": {
+    "n": 50,
+    "mean": 40.68723307794492,
+    "median": 28.262786048904424,
+    "stdev": 42.064407150865634,
+    "min": 2.158142823722173,
+    "max": 183.22915755343536
+  },
+  "post_halt_displacement_mm": {
+    "n": 50,
+    "mean": 39.487427461274564,
+    "median": 28.441122544417674,
+    "stdev": 37.47865180614727,
+    "min": 5.12444182655109,
+    "max": 163.97564189212
+  },
+  "post_halt_toward_interrupted_target_mm": {
+    "n": 50,
+    "mean": 38.97901746935992,
+    "median": 28.170124847853288,
+    "stdev": 37.84818502950337,
+    "min": 0.16153613230552438,
+    "max": 163.92060203493247
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 356.90538247200647,
+      "completed": false,
+      "controller_halt_latency_ms": 9.17110004229471,
+      "arm_joint_speed_at_halt_rad_s": 0.22150992882908999,
+      "remaining_distance_to_target_mm": 9.296521870700456,
+      "post_halt_displacement_mm": 10.143489048096509,
+      "post_halt_toward_interrupted_target_mm": 7.8600578372521825
+    },
+    {
+      "trial": 2,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 330.7024005575367,
+      "completed": false,
+      "controller_halt_latency_ms": 13.20689998101443,
+      "arm_joint_speed_at_halt_rad_s": 0.2644041260341566,
+      "remaining_distance_to_target_mm": 8.388496561616098,
+      "post_halt_displacement_mm": 11.54311720825084,
+      "post_halt_toward_interrupted_target_mm": 9.610696678541295
+    },
+    {
+      "trial": 3,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 228.4623538037286,
+      "completed": false,
+      "controller_halt_latency_ms": 3.899900009855628,
+      "arm_joint_speed_at_halt_rad_s": 1.881021047733411,
+      "remaining_distance_to_target_mm": 66.7659474932685,
+      "post_halt_displacement_mm": 61.3662068144424,
+      "post_halt_toward_interrupted_target_mm": 61.34447550730416
+    },
+    {
+      "trial": 4,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 179.47468653355,
+      "completed": false,
+      "controller_halt_latency_ms": 7.376100053079426,
+      "arm_joint_speed_at_halt_rad_s": 0.9989603078346956,
+      "remaining_distance_to_target_mm": 40.36507251812275,
+      "post_halt_displacement_mm": 40.23852159124661,
+      "post_halt_toward_interrupted_target_mm": 40.163860549841345
+    },
+    {
+      "trial": 5,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 255.94891423770815,
+      "completed": false,
+      "controller_halt_latency_ms": 2.89499998325482,
+      "arm_joint_speed_at_halt_rad_s": 2.2819033155904678,
+      "remaining_distance_to_target_mm": 104.77729236369674,
+      "post_halt_displacement_mm": 96.8266005849119,
+      "post_halt_toward_interrupted_target_mm": 96.8170737780661
+    },
+    {
+      "trial": 6,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 223.7236035249531,
+      "completed": false,
+      "controller_halt_latency_ms": 2.110100002028048,
+      "arm_joint_speed_at_halt_rad_s": 1.0186370254839696,
+      "remaining_distance_to_target_mm": 53.5005087094426,
+      "post_halt_displacement_mm": 51.917901514360246,
+      "post_halt_toward_interrupted_target_mm": 51.892861491353266
+    },
+    {
+      "trial": 7,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 338.53418872651326,
+      "completed": false,
+      "controller_halt_latency_ms": 10.35360002424568,
+      "arm_joint_speed_at_halt_rad_s": 0.8229759020973496,
+      "remaining_distance_to_target_mm": 25.060261052305172,
+      "post_halt_displacement_mm": 21.442977980104562,
+      "post_halt_toward_interrupted_target_mm": 21.362006102664427
+    },
+    {
+      "trial": 8,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 192.9283846550427,
+      "completed": false,
+      "controller_halt_latency_ms": 4.204400000162423,
+      "arm_joint_speed_at_halt_rad_s": 0.5936339743857285,
+      "remaining_distance_to_target_mm": 32.3453484577387,
+      "post_halt_displacement_mm": 33.67151650063676,
+      "post_halt_toward_interrupted_target_mm": 33.60096111157259
+    },
+    {
+      "trial": 9,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 245.4402092617414,
+      "completed": false,
+      "controller_halt_latency_ms": 11.53590000467375,
+      "arm_joint_speed_at_halt_rad_s": 0.39541114408552397,
+      "remaining_distance_to_target_mm": 27.768101783184058,
+      "post_halt_displacement_mm": 29.5691702065979,
+      "post_halt_toward_interrupted_target_mm": 29.419123335376074
+    },
+    {
+      "trial": 10,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 277.80022108953057,
+      "completed": false,
+      "controller_halt_latency_ms": 3.6703000077977777,
+      "arm_joint_speed_at_halt_rad_s": 0.5107139282555628,
+      "remaining_distance_to_target_mm": 28.757470314624793,
+      "post_halt_displacement_mm": 27.313074882237444,
+      "post_halt_toward_interrupted_target_mm": 26.921126360330497
+    },
+    {
+      "trial": 11,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 376.20622956177294,
+      "completed": false,
+      "controller_halt_latency_ms": 0.12829998740926385,
+      "arm_joint_speed_at_halt_rad_s": 0.39439565062502796,
+      "remaining_distance_to_target_mm": 11.489620592216925,
+      "post_halt_displacement_mm": 13.233759803613179,
+      "post_halt_toward_interrupted_target_mm": 13.202081931163095
+    },
+    {
+      "trial": 12,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 253.95253612410684,
+      "completed": false,
+      "controller_halt_latency_ms": 6.363900029100478,
+      "arm_joint_speed_at_halt_rad_s": 1.059450435197204,
+      "remaining_distance_to_target_mm": 39.92647533472557,
+      "post_halt_displacement_mm": 41.700238014113225,
+      "post_halt_toward_interrupted_target_mm": 41.66432600739945
+    },
+    {
+      "trial": 13,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 186.42066475042944,
+      "completed": false,
+      "controller_halt_latency_ms": 9.574500028975308,
+      "arm_joint_speed_at_halt_rad_s": 1.2589648726283362,
+      "remaining_distance_to_target_mm": 65.05343899424082,
+      "post_halt_displacement_mm": 60.194005886030745,
+      "post_halt_toward_interrupted_target_mm": 59.975782834736535
+    },
+    {
+      "trial": 14,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 330.05080714582294,
+      "completed": false,
+      "controller_halt_latency_ms": 2.7845000149682164,
+      "arm_joint_speed_at_halt_rad_s": 0.2821163064636216,
+      "remaining_distance_to_target_mm": 11.113745653149765,
+      "post_halt_displacement_mm": 14.510728064420139,
+      "post_halt_toward_interrupted_target_mm": 14.283122370026245
+    },
+    {
+      "trial": 15,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 288.4026225977392,
+      "completed": false,
+      "controller_halt_latency_ms": 3.0199000029824674,
+      "arm_joint_speed_at_halt_rad_s": 1.026837691506202,
+      "remaining_distance_to_target_mm": 34.68111915154621,
+      "post_halt_displacement_mm": 32.8028501781085,
+      "post_halt_toward_interrupted_target_mm": 32.77801931816346
+    },
+    {
+      "trial": 16,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 176.92600727092795,
+      "completed": false,
+      "controller_halt_latency_ms": 0.12939999578520656,
+      "arm_joint_speed_at_halt_rad_s": 1.1480860042398635,
+      "remaining_distance_to_target_mm": 37.54143250894247,
+      "post_halt_displacement_mm": 36.51342205152744,
+      "post_halt_toward_interrupted_target_mm": 36.34551165344513
+    },
+    {
+      "trial": 17,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 376.7012040929123,
+      "completed": false,
+      "controller_halt_latency_ms": 1.7861000378616154,
+      "arm_joint_speed_at_halt_rad_s": 0.33287422297732305,
+      "remaining_distance_to_target_mm": 10.040841324557851,
+      "post_halt_displacement_mm": 13.368518556769041,
+      "post_halt_toward_interrupted_target_mm": 13.13581324343602
+    },
+    {
+      "trial": 18,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 398.83491329620944,
+      "completed": false,
+      "controller_halt_latency_ms": 9.423699986655265,
+      "arm_joint_speed_at_halt_rad_s": 0.16188829118138845,
+      "remaining_distance_to_target_mm": 3.932100538566514,
+      "post_halt_displacement_mm": 7.857586500221825,
+      "post_halt_toward_interrupted_target_mm": 7.141412409561334
+    },
+    {
+      "trial": 19,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 346.5400607613147,
+      "completed": false,
+      "controller_halt_latency_ms": 7.798400009050965,
+      "arm_joint_speed_at_halt_rad_s": 0.8177828012236895,
+      "remaining_distance_to_target_mm": 24.615217885436206,
+      "post_halt_displacement_mm": 21.118643202201678,
+      "post_halt_toward_interrupted_target_mm": 21.03379452976275
+    },
+    {
+      "trial": 20,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 374.404078273606,
+      "completed": false,
+      "controller_halt_latency_ms": 11.359600001014769,
+      "arm_joint_speed_at_halt_rad_s": 0.10330192084573883,
+      "remaining_distance_to_target_mm": 2.158142823722173,
+      "post_halt_displacement_mm": 5.12444182655109,
+      "post_halt_toward_interrupted_target_mm": 0.16153613230552438
+    },
+    {
+      "trial": 21,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 194.99960656279964,
+      "completed": false,
+      "controller_halt_latency_ms": 17.91290001710877,
+      "arm_joint_speed_at_halt_rad_s": 1.295778845689483,
+      "remaining_distance_to_target_mm": 113.87057263917647,
+      "post_halt_displacement_mm": 106.75378029391477,
+      "post_halt_toward_interrupted_target_mm": 106.7355802173983
+    },
+    {
+      "trial": 22,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 322.1801482645336,
+      "completed": false,
+      "controller_halt_latency_ms": 4.723099991679192,
+      "arm_joint_speed_at_halt_rad_s": 0.32196745220698636,
+      "remaining_distance_to_target_mm": 16.419038737963447,
+      "post_halt_displacement_mm": 16.20511023905488,
+      "post_halt_toward_interrupted_target_mm": 15.491234996072617
+    },
+    {
+      "trial": 23,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 373.39566781409,
+      "completed": false,
+      "controller_halt_latency_ms": 4.432300047483295,
+      "arm_joint_speed_at_halt_rad_s": 0.5182620554573997,
+      "remaining_distance_to_target_mm": 12.601208660131554,
+      "post_halt_displacement_mm": 14.197573994276425,
+      "post_halt_toward_interrupted_target_mm": 14.13761017050643
+    },
+    {
+      "trial": 24,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 308.2864862892951,
+      "completed": false,
+      "controller_halt_latency_ms": 3.9376000058837235,
+      "arm_joint_speed_at_halt_rad_s": 0.28680157516620014,
+      "remaining_distance_to_target_mm": 3.918404268009299,
+      "post_halt_displacement_mm": 9.934919335608445,
+      "post_halt_toward_interrupted_target_mm": 9.285355145711325
+    },
+    {
+      "trial": 25,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 244.0904026235234,
+      "completed": false,
+      "controller_halt_latency_ms": 9.719000023324043,
+      "arm_joint_speed_at_halt_rad_s": 0.6941148906405308,
+      "remaining_distance_to_target_mm": 31.91991871068952,
+      "post_halt_displacement_mm": 32.86949984705616,
+      "post_halt_toward_interrupted_target_mm": 32.33955696929476
+    },
+    {
+      "trial": 26,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 131.52925667116662,
+      "completed": false,
+      "controller_halt_latency_ms": 1.9517000182531774,
+      "arm_joint_speed_at_halt_rad_s": 2.085314649245141,
+      "remaining_distance_to_target_mm": 132.14337800984893,
+      "post_halt_displacement_mm": 121.51876062588042,
+      "post_halt_toward_interrupted_target_mm": 121.36761991650094
+    },
+    {
+      "trial": 27,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 232.58375708033597,
+      "completed": false,
+      "controller_halt_latency_ms": 9.383499971590936,
+      "arm_joint_speed_at_halt_rad_s": 1.5938983553611243,
+      "remaining_distance_to_target_mm": 56.10316413941808,
+      "post_halt_displacement_mm": 52.01644579375975,
+      "post_halt_toward_interrupted_target_mm": 51.99558784666286
+    },
+    {
+      "trial": 28,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 286.1352801165131,
+      "completed": false,
+      "controller_halt_latency_ms": 0.09699998190626502,
+      "arm_joint_speed_at_halt_rad_s": 0.373043951635889,
+      "remaining_distance_to_target_mm": 10.678025993485587,
+      "post_halt_displacement_mm": 13.992744390095211,
+      "post_halt_toward_interrupted_target_mm": 13.656408448421143
+    },
+    {
+      "trial": 29,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 377.6905639643028,
+      "completed": false,
+      "controller_halt_latency_ms": 0.08180004078894854,
+      "arm_joint_speed_at_halt_rad_s": 0.16569792319054777,
+      "remaining_distance_to_target_mm": 4.135851248771426,
+      "post_halt_displacement_mm": 8.130494248562503,
+      "post_halt_toward_interrupted_target_mm": 7.178757027654994
+    },
+    {
+      "trial": 30,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 393.9320176025292,
+      "completed": false,
+      "controller_halt_latency_ms": 11.024400009773672,
+      "arm_joint_speed_at_halt_rad_s": 0.17795206241558972,
+      "remaining_distance_to_target_mm": 5.596989375005435,
+      "post_halt_displacement_mm": 9.410827882579417,
+      "post_halt_toward_interrupted_target_mm": 8.964860899859339
+    },
+    {
+      "trial": 31,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 245.56531041908565,
+      "completed": false,
+      "controller_halt_latency_ms": 2.014799974858761,
+      "arm_joint_speed_at_halt_rad_s": 2.5349294814431627,
+      "remaining_distance_to_target_mm": 79.21268927124873,
+      "post_halt_displacement_mm": 69.35221156782724,
+      "post_halt_toward_interrupted_target_mm": 69.27133191733003
+    },
+    {
+      "trial": 32,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 363.235277629964,
+      "completed": false,
+      "controller_halt_latency_ms": 15.55990002816543,
+      "arm_joint_speed_at_halt_rad_s": 0.12135511040736159,
+      "remaining_distance_to_target_mm": 2.4318021127603613,
+      "post_halt_displacement_mm": 6.079067515707641,
+      "post_halt_toward_interrupted_target_mm": 2.864543486177234
+    },
+    {
+      "trial": 33,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 179.95214219408905,
+      "completed": false,
+      "controller_halt_latency_ms": 17.095600022003055,
+      "arm_joint_speed_at_halt_rad_s": 0.7636823131418291,
+      "remaining_distance_to_target_mm": 63.329673527211945,
+      "post_halt_displacement_mm": 61.38984966123542,
+      "post_halt_toward_interrupted_target_mm": 61.34300059365107
+    },
+    {
+      "trial": 34,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 344.9674690870047,
+      "completed": false,
+      "controller_halt_latency_ms": 12.742099992465228,
+      "arm_joint_speed_at_halt_rad_s": 0.23396603229508012,
+      "remaining_distance_to_target_mm": 11.345201712191143,
+      "post_halt_displacement_mm": 11.458936478089004,
+      "post_halt_toward_interrupted_target_mm": 10.3744183978068
+    },
+    {
+      "trial": 35,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 267.2900104951948,
+      "completed": false,
+      "controller_halt_latency_ms": 7.055800000671297,
+      "arm_joint_speed_at_halt_rad_s": 1.1272884359970339,
+      "remaining_distance_to_target_mm": 38.4874569874561,
+      "post_halt_displacement_mm": 36.98838603699443,
+      "post_halt_toward_interrupted_target_mm": 36.97603543491662
+    },
+    {
+      "trial": 36,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 105.26807335304281,
+      "completed": false,
+      "controller_halt_latency_ms": 6.705499952659011,
+      "arm_joint_speed_at_halt_rad_s": 1.9662776961618453,
+      "remaining_distance_to_target_mm": 85.97983759603454,
+      "post_halt_displacement_mm": 82.34719465133533,
+      "post_halt_toward_interrupted_target_mm": 82.32833202886233
+    },
+    {
+      "trial": 37,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 319.11125675671974,
+      "completed": false,
+      "controller_halt_latency_ms": 2.417300012893975,
+      "arm_joint_speed_at_halt_rad_s": 0.4641344639509659,
+      "remaining_distance_to_target_mm": 15.578401603946672,
+      "post_halt_displacement_mm": 15.127923686361068,
+      "post_halt_toward_interrupted_target_mm": 14.224370311001305
+    },
+    {
+      "trial": 38,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 221.8718567830516,
+      "completed": false,
+      "controller_halt_latency_ms": 10.10000001406297,
+      "arm_joint_speed_at_halt_rad_s": 0.8768601020913593,
+      "remaining_distance_to_target_mm": 46.70402251629389,
+      "post_halt_displacement_mm": 46.43922560909509,
+      "post_halt_toward_interrupted_target_mm": 46.36075226400674
+    },
+    {
+      "trial": 39,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 350.9728322044365,
+      "completed": false,
+      "controller_halt_latency_ms": 0.09970000246539712,
+      "arm_joint_speed_at_halt_rad_s": 0.7856575578211263,
+      "remaining_distance_to_target_mm": 25.49715449849348,
+      "post_halt_displacement_mm": 22.904333819939744,
+      "post_halt_toward_interrupted_target_mm": 22.817706490247165
+    },
+    {
+      "trial": 40,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 303.48916248034277,
+      "completed": false,
+      "controller_halt_latency_ms": 6.987900007516146,
+      "arm_joint_speed_at_halt_rad_s": 0.32152545502279684,
+      "remaining_distance_to_target_mm": 9.389929077775957,
+      "post_halt_displacement_mm": 12.232057494355422,
+      "post_halt_toward_interrupted_target_mm": 11.943901851349349
+    },
+    {
+      "trial": 41,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 101.35921346240471,
+      "completed": false,
+      "controller_halt_latency_ms": 12.862400035373867,
+      "arm_joint_speed_at_halt_rad_s": 2.620300435577282,
+      "remaining_distance_to_target_mm": 175.6392956230446,
+      "post_halt_displacement_mm": 161.2704175950071,
+      "post_halt_toward_interrupted_target_mm": 161.23041551311016
+    },
+    {
+      "trial": 42,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 250.5860825991723,
+      "completed": false,
+      "controller_halt_latency_ms": 10.95510000595823,
+      "arm_joint_speed_at_halt_rad_s": 0.6463054368029194,
+      "remaining_distance_to_target_mm": 31.824332788348286,
+      "post_halt_displacement_mm": 33.07052661920207,
+      "post_halt_toward_interrupted_target_mm": 32.95819613603804
+    },
+    {
+      "trial": 43,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 363.9300991882849,
+      "completed": false,
+      "controller_halt_latency_ms": 17.30199996381998,
+      "arm_joint_speed_at_halt_rad_s": 0.7936358509166301,
+      "remaining_distance_to_target_mm": 23.7854556617936,
+      "post_halt_displacement_mm": 20.59089525437833,
+      "post_halt_toward_interrupted_target_mm": 20.495599066420898
+    },
+    {
+      "trial": 44,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 174.92732638936286,
+      "completed": false,
+      "controller_halt_latency_ms": 10.313899954780936,
+      "arm_joint_speed_at_halt_rad_s": 0.8868518189233411,
+      "remaining_distance_to_target_mm": 47.83937874014134,
+      "post_halt_displacement_mm": 47.14852998539572,
+      "post_halt_toward_interrupted_target_mm": 47.09670662848449
+    },
+    {
+      "trial": 45,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 199.56239744356236,
+      "completed": false,
+      "controller_halt_latency_ms": 0.23369997506961226,
+      "arm_joint_speed_at_halt_rad_s": 0.8159349982942409,
+      "remaining_distance_to_target_mm": 65.06804334410819,
+      "post_halt_displacement_mm": 62.82802206638283,
+      "post_halt_toward_interrupted_target_mm": 62.79587310434231
+    },
+    {
+      "trial": 46,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 364.79935250914025,
+      "completed": false,
+      "controller_halt_latency_ms": 4.465900012291968,
+      "arm_joint_speed_at_halt_rad_s": 0.2898522789259812,
+      "remaining_distance_to_target_mm": 10.898727730162049,
+      "post_halt_displacement_mm": 11.175191824123003,
+      "post_halt_toward_interrupted_target_mm": 10.086688364549222
+    },
+    {
+      "trial": 47,
+      "target": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "halt_after_ms": 158.91361515592212,
+      "completed": false,
+      "controller_halt_latency_ms": 9.248299989849329,
+      "arm_joint_speed_at_halt_rad_s": 4.999457071210598,
+      "remaining_distance_to_target_mm": 183.22915755343536,
+      "post_halt_displacement_mm": 163.97564189212,
+      "post_halt_toward_interrupted_target_mm": 163.92060203493247
+    },
+    {
+      "trial": 48,
+      "target": [
+        0.6,
+        0.0,
+        0.3
+      ],
+      "halt_after_ms": 272.99060356151625,
+      "completed": false,
+      "controller_halt_latency_ms": 10.906999988947064,
+      "arm_joint_speed_at_halt_rad_s": 0.3934113379990587,
+      "remaining_distance_to_target_mm": 9.53171580525931,
+      "post_halt_displacement_mm": 14.187733068952534,
+      "post_halt_toward_interrupted_target_mm": 13.930022690880417
+    },
+    {
+      "trial": 49,
+      "target": [
+        0.55,
+        0.25,
+        0.25
+      ],
+      "halt_after_ms": 173.32275222789707,
+      "completed": false,
+      "controller_halt_latency_ms": 5.779999948572367,
+      "arm_joint_speed_at_halt_rad_s": 1.431101950500277,
+      "remaining_distance_to_target_mm": 79.29776688006656,
+      "post_halt_displacement_mm": 72.25932942732523,
+      "post_halt_toward_interrupted_target_mm": 72.08634092956231
+    },
+    {
+      "trial": 50,
+      "target": [
+        0.55,
+        -0.25,
+        0.25
+      ],
+      "halt_after_ms": 394.21502013314836,
+      "completed": false,
+      "controller_halt_latency_ms": 16.38970000203699,
+      "arm_joint_speed_at_halt_rad_s": 0.17338390791927938,
+      "remaining_distance_to_target_mm": 4.32790315316958,
+      "post_halt_displacement_mm": 8.05897174467096,
+      "post_halt_toward_interrupted_target_mm": 5.979821403942587
+    }
+  ]
+}
