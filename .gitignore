@@ -11,6 +11,9 @@ piper_voices/
 vad_model/
 session_metrics.jsonl
 
+# Full-resolution demo recording (~92 MB); the compressed copy is docs/demo.mp4
+/voice_robot_agent_demo.mp4
+
 # Local editor MCP config — contains a GitHub personal access token
 .vscode/mcp.json
 

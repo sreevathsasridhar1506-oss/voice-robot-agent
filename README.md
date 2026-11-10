@@ -8,7 +8,11 @@ The system is designed around three Human-Robot Interaction problems:
 - **Transparency.** "What are you doing?" is answered from the live simulation state, even mid-motion.
 - **Mixed-initiative safety.** Talking over the robot halts the arm and cuts its audio within about 120 ms of speech onset.
 
-<!-- Demo video goes here -->
+### Demo (2 min)
+
+[![Demo video: the agent asks which of two red blocks is meant, then picks up the one on the left](docs/images/demo-poster.jpg)](docs/demo.mp4)
+
+*Click the image to watch the demo (spoken commands throughout). The agent describes the scene and asks which red block is meant when there are two. It picks up the one on the left, reports its state from the live simulation, places the block on the right, and stops the arm on request.*
 
 | The scene: five blocks, two of them red | Mid-task, holding a red block |
 |---|---|
